@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* Tab */
+		
+#main_content
+{
+	padding-bottom: 70px;
+	padding-top: 15px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	background-color: inherit;
+}
+#bording
+{
+	border: 2px;
+	border-color: black;
+	border-style: solid;
+}
+
+#tab1
+{
+	margin-left: 3%;
+}
+
+.tab {
+	overflow: hidden; 
+	margin: 10px auto 5px auto;
+	display: inline-block;
+	overflow: hidden;
+}
+
+/* định dạng các button tab */
+.tab button {
+	text-align: center;
+	background-color: inherit; 
+	float: left;
+	border: none;
+	outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+	color: black;
+	width: 170px;
+}
+
+/* đổi màu khi một button tab được hover */
+.tab button:hover 
+{
+	color: white;
+	background-color: rgb(172,172,172);
+}
+
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+.tab button.active 
+{
+`	color: black;
+}
+
+        /* định dạng nội dung hiển thị */
+.tabcontent 
+{
+	display: none;
+	padding: 6px 12px;
+}
+
+/*Faq*/
+#faq
+{
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.faq {
+	overflow: hidden; 
+	margin: 10px auto 5px auto;
+	display: inline-block;
+	overflow: hidden;
+}
+
+/* định dạng các button tab */
+.faq button {
+	text-align: center;
+	background-color: inherit; 
+	float: left;
+	border: none;
+	outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+	color: rgba(126,126,126,1.00)
+}
+
+/* đổi màu khi một button tab được hover */
+.faq button:hover 
+{
+	color: black;
+}
+
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+.faq button.active 
+{
+`	color: black;
+}
+
+        /* định dạng nội dung hiển thị */

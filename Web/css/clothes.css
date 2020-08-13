@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+#part
+{
+	width: 100%;
+}
+
+#main_content
+{
+	width: 100%;
+	padding-bottom: 70px;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	margin-top: -10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#main_content img
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	height: auto;
+}
+
+#title
+{
+	margin-top: -10px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#title .title
+{
+	color: darkslategray;
+	text-align: center;
+	font-family: "Corbel Light";
+	font-size: 40px;
+	text-transform: none;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin-bottom: -0px;
+}
+
+#title .discover 
+{
+	color: darkslategray;
+	text-align: center;
+	font-family: "Corbel Light";
+	text-transform: uppercase;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+}
+
+
+#big
+{
+	width: 49.3%;
+	height: auto;
+	float: left;
+	background-color: rgb(231,231,231);
+	border-style: solid;
+	border-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#small
+{
+	width: 32.65%;
+	height: auto;
+	float: left;
+	background-color: rgb(231,231,231);
+	border-style: solid;
+	border-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2px;
+}
+
+.icon
+{
+	width: 100%;
+	height: 195px;
+ 	position: relative;
+	display: inline-block;
+	margin: 50p
+}
+
+.icon .model
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.icon:hover .model 
+{
+    display: inline;
+}

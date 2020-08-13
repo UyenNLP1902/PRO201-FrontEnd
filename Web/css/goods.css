@@ -1,0 +1,58 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/*Sản phẩm*/
+
+#goods 
+{
+	border-color: black;
+	width: 95%;
+	padding-left: 4%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+#goods img
+{
+	margin-right: auto;
+	margin-left: auto;	
+	display: block;
+	height: auto;
+}
+
+.header img:hover{
+	width: 200px;
+}
+
+#goods .sp
+{
+	text-align: center;
+	font-family: "Ebrima";
+	text-transform: capitalize;
+	width: 330px;
+	height: 600px;
+	float: left;	
+	background-color: inherit;
+	margin: 2px 1% 2% 2px;
+	z-index: 1;
+}
+
+#goods .sp img {
+	left: 0;
+	top: 0;
+}
+
+#goods .sp img:hover {
+	width: 335px;
+}
+
+
+#goods .Title
+{
+	text-align: center;
+	font-family: "Ebrima";
+	text-transform: capitalize;
+	margin-top: 40px;
+	font-size: 50px;
+}

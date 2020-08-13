@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*footer*/
+
+footer
+{
+	background-color: rgb(27,27,27);
+	padding: 1px;
+	clear: both;
+	border: 5px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.title 
+{
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	color: rgb(128, 125, 122);
+	font-size: 21px;
+	text-transform: uppercase;
+}
+
+.credit
+{
+	color: rgb(175,175,175);
+	text-align: center;
+	font-family: "Microsoft JhengHei";
+	font-size: 15px;
+}
+
+.info
+{
+	line-height: 30px;
+	font-family: "Microsoft JhengHei";
+	color: lightgray;
+	font-size: 17px;
+	text-decoration: none;
+}
+
+.info a
+{
+	line-height: 30px;
+	font-family: "Microsoft JhengHei";
+	color: lightgray;
+	font-size: 15x;
+	text-decoration: none;
+}
+
+.info a:hover{
+	color: whitesmoke;
+}
+
+
+#ContactInfo, #FindUs, #AboutUs
+{
+	display: inline-block;
+	vertical-align: top;
+	padding: 5px;
+	margin: 5px;
+}
+
+#ContactInfo
+{
+	width: 30%;
+}
+
+#FindUs
+{
+	width: 30%;
+}
+
+#AboutUs
+{
+	width: 30%;
+}

@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* Expand */
+
+#expand .expand {
+  	background-color: white;
+  	font-family: "Corbel";
+  	color: rgba(77,77,77,1.00);
+  	cursor: pointer;
+  	padding: 18px;
+  	width: 100%;
+  	border: none;
+  	text-align: left;
+  	outline: none;
+  	font-size: 25px;
+	letter-spacing: 1px;
+}
+
+#expand h2
+{
+	color: darkslategray;
+	font-family: "Microsoft JhengHei";
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: none;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+#expand .active, .expand:hover {
+  	color: black;
+}
+
+#expand .expand:after {
+  	content: '\002B';
+  	color: black;
+  	font-weight: bold;
+  	float: right;
+  	margin-left: 5px;
+}
+
+#expand .active:after {
+  	content: "\2212";
+	color: black;
+}
+
+#expand .content {
+  	padding: 0 18px;
+  	max-height: 0;
+  	text-align: left;
+	font-size: 19px;
+  	overflow: hidden;
+  	transition: max-height 0.2s ease-out;
+	font-family: "Corbel Light";
+	font-weight: 500;
+	padding-bottom: 20px;
+}
